@@ -1,9 +1,12 @@
 Rails.application.routes.draw do
+  post '/signup' => 'splash#signup', as: :splash_signup
+  get '/spash' => 'splash#index'
+  root 'splash#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
-  # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  # You can have the
+  #
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

@@ -99,6 +99,9 @@ GEM
     formatador (0.2.5)
     gherkin (2.12.2-x86-mingw32)
       multi_json (~> 1.3)
+    gibbon (1.1.5)
+      httparty
+      multi_json (>= 1.9.0)
     globalid (0.3.5)
       activesupport (>= 4.1.0)
     guard (2.12.5)
@@ -305,6 +308,7 @@ DEPENDENCIES
   database_cleaner
   factory_girl_rails
   faker
+  gibbon
   guard-cucumber
   guard-rspec
   haml-rails
